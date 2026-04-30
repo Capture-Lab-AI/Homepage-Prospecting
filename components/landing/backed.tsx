@@ -1,10 +1,9 @@
 import { ScrollReveal } from "./scroll-reveal"
 
 const backers = [
-  { name: "Carnegie Mellon University", src: "/logos/cmu-seal.svg", className: "h-16" },
-  { name: "Harvard University", src: "/logos/harvard.svg", className: "h-14" },
-  { name: "University of Waterloo", src: "/logos/waterloo-shield.svg", className: "h-16" },
-  { name: "Pear VC (PearX)", src: "/logos/pearvc.png", className: "h-16" },
+  { name: "Carnegie Mellon University", src: "/logos/cmu-stack.jpg", className: "h-24" },
+  { name: "Harvard University", src: "/logos/harvard.svg", className: "h-20" },
+  { name: "Pear VC (PearX)", src: "/logos/pearvc.png", className: "h-24" },
 ]
 
 export function Backed() {
