@@ -1,5 +1,6 @@
 import { Nav } from "@/components/landing/nav"
 import { Hero } from "@/components/landing/hero"
+import { Backed } from "@/components/landing/backed"
 import { OneLiner } from "@/components/landing/one-liner"
 import { Problem } from "@/components/landing/problem"
 import { Pillars } from "@/components/landing/pillars"
@@ -15,6 +16,7 @@ export default function Home() {
     <main className="min-h-screen bg-bg">
       <Nav />
       <Hero />
+      <Backed />
       <OneLiner />
       <Problem />
       <Pillars />
