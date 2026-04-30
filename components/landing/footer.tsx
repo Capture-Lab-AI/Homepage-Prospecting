@@ -9,7 +9,7 @@ export function Footer() {
             href="/"
             className="font-display text-[20px] font-medium leading-none tracking-tight text-bg"
           >
-            Pipeline
+            Canary
           </Link>
 
           <nav className="flex flex-wrap items-center gap-x-7 gap-y-2 font-mono text-[11px] uppercase tracking-[0.14em] text-bg/60">
@@ -20,7 +20,7 @@ export function Footer() {
               Terms
             </a>
             <a
-              href="mailto:hello@pipeline.example.com"
+              href="mailto:hello@canary.example.com"
               className="transition-colors hover:text-bg"
             >
               Contact
@@ -28,7 +28,7 @@ export function Footer() {
           </nav>
 
           <p className="font-mono text-[11px] uppercase tracking-[0.14em] text-bg/40">
-            © {new Date().getFullYear()} Pipeline
+            © {new Date().getFullYear()} Canary
           </p>
         </div>
       </div>

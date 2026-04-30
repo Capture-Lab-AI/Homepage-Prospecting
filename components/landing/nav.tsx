@@ -7,31 +7,15 @@ export function Nav() {
       <div className="mx-auto flex h-16 max-w-content items-center justify-between px-6">
         <Link
           href="/"
-          className="font-display text-[22px] font-medium leading-none tracking-tight text-ink"
+          className="flex items-center gap-2 font-display text-[22px] font-medium leading-none tracking-tight text-ink"
         >
-          Pipeline
+          <img
+            src="/canary-mark.png"
+            alt=""
+            className="h-7 w-7 object-contain"
+          />
+          Canary
         </Link>
-
-        <nav className="hidden items-center gap-9 md:flex">
-          <a
-            href="#how-it-works"
-            className="text-[14px] text-ink-2 transition-colors hover:text-ink"
-          >
-            How it works
-          </a>
-          <a
-            href="#signals"
-            className="text-[14px] text-ink-2 transition-colors hover:text-ink"
-          >
-            Signals
-          </a>
-          <a
-            href="#why-pipeline"
-            className="text-[14px] text-ink-2 transition-colors hover:text-ink"
-          >
-            Why Pipeline
-          </a>
-        </nav>
 
         <LinkButton href="#cta" size="md" variant="primary">
           Book a demo
