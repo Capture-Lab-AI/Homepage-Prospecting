@@ -80,13 +80,6 @@ export function Signals() {
             </ul>
           </div>
         </ScrollReveal>
-
-        <ScrollReveal delay={150}>
-          <p className="font-display mx-auto mt-20 max-w-2xl text-balance text-center text-[24px] font-light italic leading-[1.4] tracking-[-0.01em] text-ink-2 md:mt-28 md:text-[28px]">
-            &ldquo;Every signal scores the prospect and pushes them up your
-            queue.&rdquo;
-          </p>
-        </ScrollReveal>
       </div>
     </section>
   )
