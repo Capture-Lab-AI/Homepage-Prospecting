@@ -28,7 +28,13 @@ export function Hero() {
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-3">
-            <LinkButton href="#cta" size="lg" variant="primary">
+            <LinkButton
+              href="https://calendly.com/matthew-capture-lab/30min"
+              target="_blank"
+              rel="noopener noreferrer"
+              size="lg"
+              variant="primary"
+            >
               Book a demo
             </LinkButton>
             <LinkButton

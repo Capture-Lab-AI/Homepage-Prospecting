@@ -35,7 +35,13 @@ export function Nav() {
           ))}
         </nav>
 
-        <LinkButton href="#cta" size="md" variant="primary">
+        <LinkButton
+          href="https://calendly.com/matthew-capture-lab/30min"
+          target="_blank"
+          rel="noopener noreferrer"
+          size="md"
+          variant="primary"
+        >
           Book a demo
         </LinkButton>
       </div>

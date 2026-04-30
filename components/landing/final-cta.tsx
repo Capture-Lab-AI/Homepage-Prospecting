@@ -19,7 +19,9 @@ export function FinalCTA() {
             </p>
             <div className="mt-10 flex justify-center">
               <LinkButton
-                href="mailto:aidan@capture-lab.com"
+                href="https://calendly.com/matthew-capture-lab/30min"
+                target="_blank"
+                rel="noopener noreferrer"
                 size="lg"
                 variant="invert"
               >
