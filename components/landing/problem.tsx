@@ -2,7 +2,7 @@ import { ScrollReveal } from "./scroll-reveal"
 
 export function Problem() {
   return (
-    <section className="border-t border-rule">
+    <section id="problem" className="border-t border-rule scroll-mt-20">
       <div className="mx-auto max-w-content px-6 py-24 md:py-32 lg:py-40">
         <div className="grid gap-16 lg:grid-cols-12 lg:gap-20">
           <div className="lg:col-span-7">

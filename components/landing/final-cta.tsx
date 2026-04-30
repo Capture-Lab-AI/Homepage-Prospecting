@@ -18,20 +18,14 @@ export function FinalCTA() {
               Book a 20-minute demo — we&rsquo;ll show you live prospects in
               your geography on the call.
             </p>
-            <div className="mt-10 flex flex-wrap items-center justify-center gap-3">
+            <div className="mt-10 flex justify-center">
               <LinkButton
-                href="mailto:hello@canary.example.com"
+                href="mailto:aidan@capture-lab.com"
                 size="lg"
                 variant="invert"
               >
-                Book a demo
+                Talk to our team
               </LinkButton>
-              <a
-                href="mailto:hello@canary.example.com"
-                className="font-mono text-[12px] uppercase tracking-[0.14em] text-bg/70 transition-colors hover:text-bg"
-              >
-                hello@canary.example.com
-              </a>
             </div>
           </div>
         </ScrollReveal>

@@ -4,7 +4,7 @@ export function Pillars() {
   return (
     <section
       id="how-it-works"
-      className="border-t border-rule bg-bg-elev/40"
+      className="scroll-mt-20 border-t border-rule bg-bg-elev/40"
     >
       <div className="mx-auto max-w-content px-6 py-24 md:py-32 lg:py-40">
         <ScrollReveal>

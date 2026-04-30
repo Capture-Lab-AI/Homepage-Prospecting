@@ -38,12 +38,6 @@ export function Footer() {
             <a href="#" className="transition-colors hover:text-bg">
               Terms
             </a>
-            <a
-              href="mailto:hello@canary.example.com"
-              className="transition-colors hover:text-bg"
-            >
-              Contact
-            </a>
           </nav>
 
           <p className="font-mono text-[11px] uppercase tracking-[0.14em] text-bg/40">
