@@ -24,14 +24,14 @@ export function Pillars() {
             number="01"
             tag="Discover"
             title="Find prospects that match your thesis."
-            body='Type a thesis in plain English: "3PL operators, 50–500 employees, expanding in Western PA, industrial." Canary runs the searches, scores candidates against your criteria, and hands back a ranked list. Accept the ones you want, skip the rest.'
+            body="Describe your target in plain English. Canary runs the searches, scores candidates, and hands back a ranked list."
             mockup={<DiscoverMockup />}
           />
           <Pillar
             number="02"
             tag="Enrich"
             title="Every company, fully researched, automatically."
-            body="The moment a company enters your pipeline, Canary pulls the website, finds the decision-makers, matches the HQ to property data, scans 90 days of news, and writes a plain-English brief. Refreshed nightly. No more stale notes."
+            body="Canary pulls the website, finds decision-makers, matches HQ to property data, and scans 90 days of news — refreshed nightly."
             mockup={<EnrichMockup />}
             reverse
           />
@@ -39,7 +39,7 @@ export function Pillars() {
             number="03"
             tag="Outreach"
             title="A prioritized daily queue with drafts ready to send."
-            body="Open your queue. Pick the top prospect. Canary streams a personalized email, call script, or LinkedIn note — grounded in their lease expiry, their recent funding round, your last conversation. Log the outcome, and the next touch schedules itself."
+            body="Personalized emails, call scripts, and LinkedIn notes — grounded in lease expiry, funding rounds, and your last conversation. Log the outcome and the next touch schedules itself."
             mockup={<OutreachMockup />}
           />
         </div>

@@ -23,9 +23,8 @@ export function Hero() {
           </h1>
 
           <p className="mt-8 max-w-prose text-pretty text-[18px] leading-[1.55] text-ink-2 md:text-[20px]">
-            Your next deal was signed three years ago. We build automation that
-            tells you who&rsquo;s about to need space — before they pick up the
-            phone.
+            We build automation that tells you who&rsquo;s about to need space
+            — before they pick up the phone.
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-3">

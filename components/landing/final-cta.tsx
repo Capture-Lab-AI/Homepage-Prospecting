@@ -15,8 +15,7 @@ export function FinalCTA() {
               <span className="italic text-accent-soft">your market.</span>
             </h2>
             <p className="mx-auto mt-7 max-w-xl text-pretty text-[17px] leading-[1.6] text-bg/75 md:text-[18px]">
-              Book a 20-minute demo — we&rsquo;ll show you live prospects in
-              your geography on the call.
+              We&rsquo;ll show you live prospects in your geography on the call.
             </p>
             <div className="mt-10 flex justify-center">
               <LinkButton

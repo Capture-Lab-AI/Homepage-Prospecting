@@ -14,18 +14,11 @@ export function Problem() {
                 The highest-intent signal in real estate is also the most likely
                 to be missed.
               </h2>
-              <div className="mt-8 max-w-prose space-y-5 text-[17px] leading-[1.65] text-ink-2 md:text-[18px]">
-                <p>
-                  Brokers spend half their day in ten browser tabs — CoStar,
-                  LinkedIn, Google News, the CRM — piecing together which
-                  companies might need space, who to call, and what to say.
-                </p>
-                <p>
-                  The lease that expires in 18 months is the highest-intent
-                  signal in real estate, and it&rsquo;s the one most likely to
-                  get missed.
-                </p>
-              </div>
+              <p className="mt-8 max-w-prose text-[17px] leading-[1.65] text-ink-2 md:text-[18px]">
+                Brokers spend half their day in ten browser tabs — CoStar,
+                LinkedIn, Google News, the CRM — piecing together which
+                companies might need space, who to call, and what to say.
+              </p>
             </ScrollReveal>
           </div>
 

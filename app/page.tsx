@@ -1,7 +1,6 @@
 import { Nav } from "@/components/landing/nav"
 import { Hero } from "@/components/landing/hero"
 import { Backed } from "@/components/landing/backed"
-import { OneLiner } from "@/components/landing/one-liner"
 import { Problem } from "@/components/landing/problem"
 import { Pillars } from "@/components/landing/pillars"
 import { Signals } from "@/components/landing/signals"
@@ -15,7 +14,6 @@ export default function Home() {
       <Nav />
       <Hero />
       <Backed />
-      <OneLiner />
       <Problem />
       <Pillars />
       <Signals />
