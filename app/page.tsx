@@ -7,7 +7,6 @@ import { Pillars } from "@/components/landing/pillars"
 import { Signals } from "@/components/landing/signals"
 import { Audiences } from "@/components/landing/audiences"
 import { Differentiators } from "@/components/landing/differentiators"
-import { SocialProof } from "@/components/landing/social-proof"
 import { FinalCTA } from "@/components/landing/final-cta"
 import { Footer } from "@/components/landing/footer"
 
@@ -23,7 +22,6 @@ export default function Home() {
       <Signals />
       <Audiences />
       <Differentiators />
-      <SocialProof />
       <FinalCTA />
       <Footer />
     </main>

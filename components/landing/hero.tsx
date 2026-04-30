@@ -15,11 +15,6 @@ export function Hero() {
     <section className="relative overflow-hidden">
       <div className="mx-auto max-w-content px-6 pb-24 pt-24 md:pb-32 md:pt-36 lg:pb-40 lg:pt-44">
         <ScrollReveal>
-          <div className="mb-10 inline-flex items-center gap-2 border border-rule bg-bg-elev px-3 py-1.5 font-mono text-[11px] uppercase tracking-[0.14em] text-ink-2">
-            <span className="inline-block h-1.5 w-1.5 rounded-full bg-accent" />
-            AI prospecting for commercial real estate
-          </div>
-
           <h1 className="font-display text-balance text-[44px] font-light leading-[1.02] tracking-[-0.02em] text-ink sm:text-[60px] md:text-[76px] lg:text-[88px]">
             Every lease expiring in your market.{" "}
             <span className="block italic text-accent sm:inline">
