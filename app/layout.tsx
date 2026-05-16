@@ -22,12 +22,12 @@ const jetbrainsMono = JetBrains_Mono({
 })
 
 export const metadata: Metadata = {
-  title: "Vantage — Prospecting autopilot for commercial real estate",
+  title: "Capture Lab — Prospecting autopilot for commercial real estate",
   description:
-    "Vantage is an AI prospecting platform built for CRE brokerages. Discover off-market opportunities, enrich every prospect automatically, and start each day with an AI-drafted task queue grounded in real signals.",
-  metadataBase: new URL("https://vantage.example.com"),
+    "Capture Lab is an AI prospecting platform built for CRE brokerages. Discover off-market opportunities, enrich every prospect automatically, and start each day with an AI-drafted task queue grounded in real signals.",
+  metadataBase: new URL("https://capturelab.example.com"),
   openGraph: {
-    title: "Vantage — Prospecting autopilot for commercial real estate",
+    title: "Capture Lab — Prospecting autopilot for commercial real estate",
     description:
       "Every lease expiring in your market. Surfaced 18 months early.",
     type: "website",

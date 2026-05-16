@@ -4,7 +4,7 @@ import { LinkButton } from "@/components/ui/button"
 const tabs = [
   { href: "#problem", label: "Problem" },
   { href: "#how-it-works", label: "How it works" },
-  { href: "#why-vantage", label: "Why us" },
+  { href: "#why-capture-lab", label: "Why us" },
 ]
 
 export function Nav() {
@@ -16,11 +16,11 @@ export function Nav() {
           className="flex items-center gap-2 font-display text-[22px] font-medium leading-none tracking-tight text-ink"
         >
           <img
-            src="/vantage-mark.png"
+            src="/capture-lab-mark.png"
             alt=""
             className="h-7 w-7 object-contain"
           />
-          Vantage
+          Capture Lab
         </Link>
 
         <nav className="hidden items-center gap-8 md:flex">

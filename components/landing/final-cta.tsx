@@ -11,7 +11,7 @@ export function FinalCTA() {
               See it live
             </p>
             <h2 className="font-display mt-6 text-balance text-[40px] font-light leading-[1.05] tracking-[-0.02em] text-bg md:text-[56px] lg:text-[68px]">
-              See Vantage on{" "}
+              See Capture Lab on{" "}
               <span className="italic text-accent-soft">your market.</span>
             </h2>
             <p className="mx-auto mt-7 max-w-xl text-pretty text-[17px] leading-[1.6] text-bg/75 md:text-[18px]">
