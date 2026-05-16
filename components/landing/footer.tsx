@@ -10,7 +10,7 @@ export function Footer() {
               href="/"
               className="font-display text-[20px] font-medium leading-none tracking-tight text-bg"
             >
-              Canary
+              Vantage
             </Link>
             <a
               href="https://www.linkedin.com/company/capture-lab-ai"
@@ -41,7 +41,7 @@ export function Footer() {
           </nav>
 
           <p className="font-mono text-[11px] uppercase tracking-[0.14em] text-bg/40">
-            © {new Date().getFullYear()} Canary
+            © {new Date().getFullYear()} Vantage
           </p>
         </div>
       </div>

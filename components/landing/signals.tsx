@@ -48,7 +48,7 @@ export function Signals() {
                 The signals that move a prospect to the top of your queue.
               </h2>
               <p className="mt-6 max-w-prose text-[17px] leading-[1.65] text-ink-2">
-                Canary watches for the moments that matter most. Every signal
+                Vantage watches for the moments that matter most. Every signal
                 scores the prospect and pushes them up your queue.
               </p>
             </div>

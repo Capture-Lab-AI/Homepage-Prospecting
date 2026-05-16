@@ -24,14 +24,14 @@ export function Pillars() {
             number="01"
             tag="Discover"
             title="Find prospects that match your thesis."
-            body="Describe your target in plain English. Canary runs the searches, scores candidates, and hands back a ranked list."
+            body="Describe your target in plain English. Vantage runs the searches, scores candidates, and hands back a ranked list."
             mockup={<DiscoverMockup />}
           />
           <Pillar
             number="02"
             tag="Enrich"
             title="Every company, fully researched, automatically."
-            body="Canary pulls the website, finds decision-makers, matches HQ to property data, and scans 90 days of news — refreshed nightly."
+            body="Vantage pulls the website, finds decision-makers, matches HQ to property data, and scans 90 days of news — refreshed nightly."
             mockup={<EnrichMockup />}
             reverse
           />

@@ -20,7 +20,7 @@ const audiences = [
 
 export function Audiences() {
   return (
-    <section id="why-canary" className="scroll-mt-20 border-t border-rule bg-bg-elev/40">
+    <section id="why-vantage" className="scroll-mt-20 border-t border-rule bg-bg-elev/40">
       <div className="mx-auto max-w-content px-6 py-24 md:py-32 lg:py-40">
         <ScrollReveal>
           <div className="mb-16 max-w-3xl md:mb-20">
