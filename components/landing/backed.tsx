@@ -1,7 +1,7 @@
 import { ScrollReveal } from "./scroll-reveal"
 
 const backers = [
-  { name: "Carnegie Mellon University", src: "/logos/cmu-stack.jpg", className: "h-24" },
+  { name: "Carnegie Mellon University", src: "/logos/cmu-wordmark.svg", className: "h-10 md:h-12" },
   { name: "Harvard University", src: "/logos/harvard.svg", className: "h-20" },
   { name: "Pear VC (PearX)", src: "/logos/pearvc.png", className: "h-24" },
 ]

@@ -3,15 +3,15 @@
 @tailwind utilities;
 
 :root {
-  --bg: #faf9f5;
-  --bg-elev: #ffffff;
-  --bg-deep: #0e1411;
+  --bg: #fbf3ee;
+  --bg-elev: #fff6f2;
+  --bg-deep: #15090b;
 
   --ink: #0a0a0a;
   --ink-2: #404040;
   --ink-3: #737373;
 
-  --rule: #e8e6df;
+  --rule: #eddcd3;
   --rule-strong: #1a1a1a;
 
   --accent: #0f4a3f;
