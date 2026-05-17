@@ -13,8 +13,7 @@ export function Pillars() {
               How it works
             </p>
             <h2 className="font-display mt-5 text-balance text-[34px] font-light leading-[1.1] tracking-[-0.02em] text-ink md:text-[44px] lg:text-[52px]">
-              Three agents working in your territory.{" "}
-              <span className="italic text-ink-3">Every day.</span>
+              Three things Capture Lab does in your territory, every day.
             </h2>
           </div>
         </ScrollReveal>
@@ -23,23 +22,23 @@ export function Pillars() {
           <Pillar
             number="01"
             tag="Discover"
-            title="Find prospects that match your thesis."
-            body="Describe your target in plain English. Capture Lab runs the searches, scores candidates, and hands back a ranked list."
+            title="Find the companies worth calling."
+            body="Tell us what you're looking for in plain English. We score every company in your market against it and hand back a ranked list."
             mockup={<DiscoverMockup />}
           />
           <Pillar
             number="02"
             tag="Enrich"
-            title="Every company, fully researched, automatically."
-            body="Capture Lab pulls the website, finds decision-makers, matches HQ to property data, and scans 90 days of news — refreshed nightly."
+            title="Research every company, overnight."
+            body="Website, decision-makers, lease data, the last 90 days of news. All on one page, refreshed every night."
             mockup={<EnrichMockup />}
             reverse
           />
           <Pillar
             number="03"
             tag="Outreach"
-            title="A prioritized daily queue with drafts ready to send."
-            body="Personalized emails, call scripts, and LinkedIn notes — grounded in lease expiry, funding rounds, and your last conversation. Log the outcome and the next touch schedules itself."
+            title="A daily call list with drafts ready to send."
+            body="Emails, call scripts, and LinkedIn notes, written from the prospect's lease, recent news, and your last conversation. Log the call and the next one schedules itself."
             mockup={<OutreachMockup />}
           />
         </div>
@@ -216,21 +215,21 @@ function OutreachMockup() {
       signal: "LEASE · MAR 2027",
       score: 94,
       draft:
-        "Hi Sarah — saw your Ohio River Blvd lease wraps in early '27. With the Series B and Q1 hiring, the timing for a search starts now…",
+        "Hi Sarah, saw your Ohio River Blvd lease wraps in early '27. With the Series B and Q1 hiring, the timing for a search starts now…",
     },
     {
       company: "Allegheny Freight Partners",
       signal: "FUNDING · $14M",
       score: 88,
       draft:
-        "Hi Mark — congrats on closing the Series A. Most 3PLs your size start outgrowing their footprint within 6 months of a raise…",
+        "Hi Mark, congrats on closing the Series A. Most 3PLs your size start outgrowing their footprint within 6 months of a raise…",
     },
     {
       company: "Westmoreland Distribution",
       signal: "OWNERSHIP CHANGE",
       score: 82,
       draft:
-        "Hi Dana — heard about the buyout from Riverstone. New ownership often revisits real estate in the first 90 days…",
+        "Hi Dana, heard about the buyout from Riverstone. New ownership often revisits real estate in the first 90 days…",
     },
   ]
   return (

@@ -15,16 +15,14 @@ export function Hero() {
     <section className="relative overflow-hidden">
       <div className="mx-auto max-w-content px-6 pb-24 pt-24 md:pb-32 md:pt-36 lg:pb-40 lg:pt-44">
         <ScrollReveal>
-          <h1 className="font-display text-balance text-[44px] font-light leading-[1.02] tracking-[-0.02em] text-ink sm:text-[60px] md:text-[76px] lg:text-[88px]">
-            Every lease expiring in your market.{" "}
-            <span className="block italic text-accent sm:inline">
-              Surfaced 18 months early.
-            </span>
+          <h1 className="font-display text-[44px] font-light leading-[1.02] tracking-[-0.02em] text-ink sm:text-[60px] md:text-[76px] lg:text-[88px]">
+            Every lease in your market,
+            <span className="block">18 months early.</span>
           </h1>
 
-          <p className="mt-8 max-w-prose text-pretty text-[18px] leading-[1.55] text-ink-2 md:text-[20px]">
-            We build automation that tells you who&rsquo;s about to need space
-            — before they pick up the phone.
+          <p className="mt-8 max-w-prose text-[18px] leading-[1.55] text-ink-2 md:text-[20px]">
+            We tell you which companies are about to need space,
+            <span className="block">so you can be the call they take.</span>
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-3">
@@ -36,15 +34,23 @@ export function Hero() {
               variant="primary"
             >
               Book a demo
+              <span
+                aria-hidden
+                className="inline-block transition-transform duration-200 ease-out motion-safe:group-hover:translate-x-[3px]"
+              >
+                →
+              </span>
             </LinkButton>
             <LinkButton
               href="#how-it-works"
               size="lg"
               variant="ghost"
-              className="group gap-1.5"
+              className="gap-1.5"
             >
-              See how it works
-              <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+              <span className="relative after:absolute after:left-0 after:-bottom-0.5 after:h-px after:w-0 after:bg-current after:transition-[width] after:duration-300 after:ease-out after:content-[''] group-hover:after:w-full">
+                See how it works
+              </span>
+              <ArrowRight className="h-4 w-4 transition-transform duration-200 ease-out motion-safe:group-hover:translate-x-1" />
             </LinkButton>
           </div>
         </ScrollReveal>

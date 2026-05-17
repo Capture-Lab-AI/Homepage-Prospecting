@@ -28,7 +28,7 @@ export function Nav() {
             <a
               key={tab.href}
               href={tab.href}
-              className="font-mono text-[11px] uppercase tracking-[0.14em] text-ink-2 transition-colors hover:text-ink"
+              className="relative font-mono text-[11px] uppercase tracking-[0.14em] text-ink-2 transition-colors duration-200 hover:text-ink after:absolute after:left-0 after:-bottom-1 after:h-px after:w-0 after:bg-ink after:transition-[width] after:duration-300 after:ease-out after:content-[''] hover:after:w-full"
             >
               {tab.label}
             </a>
@@ -43,6 +43,12 @@ export function Nav() {
           variant="primary"
         >
           Book a demo
+          <span
+            aria-hidden
+            className="inline-block transition-transform duration-200 ease-out motion-safe:group-hover:translate-x-[3px]"
+          >
+            →
+          </span>
         </LinkButton>
       </div>
     </header>

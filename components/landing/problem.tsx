@@ -11,13 +11,13 @@ export function Problem() {
                 The problem
               </p>
               <h2 className="font-display mt-5 max-w-2xl text-balance text-[34px] font-light leading-[1.1] tracking-[-0.02em] text-ink md:text-[44px] lg:text-[52px]">
-                The highest-intent signal in real estate is also the most likely
-                to be missed.
+                The best signal in real estate is also the one most brokers
+                miss.
               </h2>
               <p className="mt-8 max-w-prose text-[17px] leading-[1.65] text-ink-2 md:text-[18px]">
-                Brokers spend half their day in ten browser tabs — CoStar,
-                LinkedIn, Google News, the CRM — piecing together which
-                companies might need space, who to call, and what to say.
+                You spend half the day jumping between CoStar, LinkedIn, Google
+                News, and your CRM, trying to figure out which companies to call
+                this week. Capture Lab does that work for you, overnight.
               </p>
             </ScrollReveal>
           </div>
@@ -32,8 +32,8 @@ export function Problem() {
                   </span>
                 </p>
                 <p className="mt-6 max-w-xs font-mono text-[12px] uppercase leading-[1.6] tracking-[0.12em] text-ink-3">
-                  the highest-intent window in CRE — and the one most likely to
-                  slip
+                  The window when tenants start touring. Most brokers find out
+                  halfway through.
                 </p>
               </div>
             </ScrollReveal>

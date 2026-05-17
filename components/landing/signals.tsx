@@ -6,31 +6,31 @@ const signals = [
     Icon: Building2,
     label: "Lease",
     title: "Lease expiring in 12–24 months",
-    body: "The highest-intent signal in CRE.",
+    body: "The window when tenants start touring. Before the incumbent broker even knows.",
   },
   {
     Icon: TrendingUp,
     label: "Funding",
     title: "Funding round",
-    body: "They're about to need more space.",
+    body: "More money, more headcount, more space. You want the call before the wire clears.",
   },
   {
     Icon: Users,
     label: "Hiring",
     title: "Hiring surge",
-    body: "Same story — growth shows up in headcount before square footage.",
+    body: "Headcount moves first. Square footage follows a quarter later.",
   },
   {
     Icon: RefreshCw,
     label: "Ownership",
     title: "Ownership change",
-    body: "New decision-maker, new conversation.",
+    body: "New decision-maker, the lease conversation resets. First call wins.",
   },
   {
     Icon: Newspaper,
     label: "M&A",
     title: "M&A activity",
-    body: "Consolidation almost always means real-estate decisions.",
+    body: "Two footprints become one. Someone's relocating, someone's subleasing.",
   },
 ]
 
@@ -45,11 +45,11 @@ export function Signals() {
                 The score
               </p>
               <h2 className="font-display mt-5 text-balance text-[34px] font-light leading-[1.1] tracking-[-0.02em] text-ink md:text-[42px] lg:text-[48px]">
-                The signals that move a prospect to the top of your queue.
+                What pushes a prospect to the top of your call list.
               </h2>
               <p className="mt-6 max-w-prose text-[17px] leading-[1.65] text-ink-2">
-                Capture Lab watches for the moments that matter most. Every signal
-                scores the prospect and pushes them up your queue.
+                Five signals we watch for. Each one moves the prospect up your
+                list.
               </p>
             </div>
 

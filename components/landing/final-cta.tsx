@@ -11,11 +11,11 @@ export function FinalCTA() {
               See it live
             </p>
             <h2 className="font-display mt-6 text-balance text-[40px] font-light leading-[1.05] tracking-[-0.02em] text-bg md:text-[56px] lg:text-[68px]">
-              See Capture Lab on{" "}
-              <span className="italic text-accent-soft">your market.</span>
+              Try it on your market.
             </h2>
             <p className="mx-auto mt-7 max-w-xl text-pretty text-[17px] leading-[1.6] text-bg/75 md:text-[18px]">
-              We&rsquo;ll show you live prospects in your geography on the call.
+              On the demo we&rsquo;ll show you live prospects in your geography,
+              with the briefs already written.
             </p>
             <div className="mt-10 flex justify-center">
               <LinkButton
@@ -26,6 +26,12 @@ export function FinalCTA() {
                 variant="invert"
               >
                 Talk to our team
+                <span
+                  aria-hidden
+                  className="inline-block transition-transform duration-200 ease-out motion-safe:group-hover:translate-x-[3px]"
+                >
+                  →
+                </span>
               </LinkButton>
             </div>
           </div>

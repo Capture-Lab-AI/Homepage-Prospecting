@@ -3,18 +3,18 @@ import { ScrollReveal } from "./scroll-reveal"
 const audiences = [
   {
     eyebrow: "For brokers",
-    headline: "Your hours back.",
-    body: "Two hours of research becomes a 30-second AI brief. Your day starts with your queue, not your tabs.",
+    headline: "Get your day back.",
+    body: "Two hours of tab-switching becomes a 30-second brief. You start the day with a call list, not a research list.",
   },
   {
     eyebrow: "For team leads",
-    headline: "Junior brokers, senior output.",
-    body: "The agents handle the synthesis, so every rep operates at your top performer's level.",
+    headline: "Junior reps, top-performer output.",
+    body: "Capture Lab does the research and the synthesis, so every rep on your floor sounds as prepared as your best.",
   },
   {
     eyebrow: "For owners & principals",
-    headline: "Nothing slips.",
-    body: "Outcome-driven cadences mean every prospect gets the right follow-up at the right time, on the right channel.",
+    headline: "Nothing falls through.",
+    body: "Every prospect gets the right follow-up at the right time, on the right channel. You see it all in one place.",
   },
 ]
 
@@ -25,10 +25,10 @@ export function Audiences() {
         <ScrollReveal>
           <div className="mb-16 max-w-3xl md:mb-20">
             <p className="font-mono text-[11px] uppercase tracking-[0.16em] text-ink-3">
-              Why brokers (and brokerages) buy
+              Who it&rsquo;s for
             </p>
             <h2 className="font-display mt-5 text-balance text-[34px] font-light leading-[1.1] tracking-[-0.02em] text-ink md:text-[42px] lg:text-[48px]">
-              Built for everyone in the chain of a deal.
+              Made for everyone working a deal.
             </h2>
           </div>
         </ScrollReveal>
