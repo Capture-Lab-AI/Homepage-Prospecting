@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { LinkButton } from "@/components/ui/button"
 
 const tabs = [
   { href: "#problem", label: "Problem" },
@@ -35,21 +34,12 @@ export function Nav() {
           ))}
         </nav>
 
-        <LinkButton
-          href="https://calendly.com/matthew-capture-lab/30min"
-          target="_blank"
-          rel="noopener noreferrer"
-          size="md"
-          variant="primary"
+        <a
+          href="https://app.capture-lab.net/"
+          className="relative font-mono text-[13px] font-medium uppercase tracking-[0.14em] text-ink transition-colors duration-200 hover:text-ink after:absolute after:left-0 after:-bottom-1 after:h-px after:w-0 after:bg-ink after:transition-[width] after:duration-300 after:ease-out after:content-[''] hover:after:w-full"
         >
-          Book a demo
-          <span
-            aria-hidden
-            className="inline-block transition-transform duration-200 ease-out motion-safe:group-hover:translate-x-[3px]"
-          >
-            →
-          </span>
-        </LinkButton>
+          Sign in
+        </a>
       </div>
     </header>
   )
