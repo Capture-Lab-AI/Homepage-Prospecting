@@ -49,12 +49,9 @@ export function Footer() {
           </div>
 
           <nav className="flex flex-wrap items-center gap-x-7 gap-y-2 font-mono text-[11px] uppercase tracking-[0.14em] text-bg/60">
-            <a href="#" className="transition-colors hover:text-bg">
+            <Link href="/privacy" className="transition-colors hover:text-bg">
               Privacy
-            </a>
-            <a href="#" className="transition-colors hover:text-bg">
-              Terms
-            </a>
+            </Link>
           </nav>
 
           <p className="font-mono text-[11px] uppercase tracking-[0.14em] text-bg/40">
